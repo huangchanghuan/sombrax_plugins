@@ -153,7 +153,7 @@ idempotently on later edits.
 <!-- vk:pipeline:start -->
 ## Pipeline: <Name>
 
-Execute these stages in the order listed. Do not add, skip, or reorder stages. As you begin each numbered stage below, output a single line exactly `VK-PIPELINE-STAGE: N` (N = the number of the stage you are starting) so pipeline progress can be tracked.
+按下面列出的顺序执行各阶段，不要增加、跳过或重排阶段。开始下面每个编号阶段时，输出单独一行，内容恰好为 `VK-PIPELINE-STAGE: N`（N 为你正在开始的阶段编号），以便跟踪流水线进度。
 
 1. <stage 1 prompt, verbatim from the TOML>
 2. <stage 2 prompt, verbatim>
@@ -238,7 +238,7 @@ default stages plus explicit execution, so `orchestrate` is included:
 <!-- vk:pipeline:start -->
 ## Pipeline: Async Fable
 
-Execute these stages in the order listed. Do not add, skip, or reorder stages. As you begin each numbered stage below, output a single line exactly `VK-PIPELINE-STAGE: N` (N = the number of the stage you are starting) so pipeline progress can be tracked.
+按下面列出的顺序执行各阶段，不要增加、跳过或重排阶段。开始下面每个编号阶段时，输出单独一行，内容恰好为 `VK-PIPELINE-STAGE: N`（N 为你正在开始的阶段编号），以便跟踪流水线进度。
 
 1. Have the orchestrator agent pick this card up and drive it to done autonomously, running the card's pipeline stages in order — regardless of which board column the card is in (it may be started even from Todo).
 2. <prompt of stage "spec" ("Spec via Fable subagent"), verbatim from async-fable.toml>
